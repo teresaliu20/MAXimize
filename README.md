@@ -1,1 +1,1 @@
-# WeasleyClock-SBHacks
+#SBHacks 2017
