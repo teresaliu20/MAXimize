@@ -30,7 +30,20 @@
       }
     </style>
     <script src="https://js.arcgis.com/3.19/"></script>
-    <script>
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <div class="clock">
+    	<h1>WEASLEY CLOCK</h1>
+      <form>
+        <input type="text" name="long" placeholder="Enter longitude">
+        <input type="text" name="lat" placeholder="Enter latitude">
+      </form>
+      <button id="button" type="button">Submit</button>
+    </div>
+  </body>
+  <script>
       var map;
       var long, lat;
 
@@ -49,17 +62,4 @@
         });
       });
     </script>
-  </head>
-
-  <body>
-    <div id="map"></div>
-    <div class="clock">
-    	<h1>WEASLEY CLOCK</h1>
-      <form>
-        <input type="text" name="long" placeholder="Enter longitude">
-        <input type="text" name="lat" placeholder="Enter latitude">
-      </form>
-      <button id="button" type="button">Submit</button>
-    </div>
-  </body>
 </html>
