@@ -32,11 +32,19 @@
     <script src="https://js.arcgis.com/3.19/"></script>
     <script>
       var map;
+      var long, lat;
+
+      document.onload = function() {
+        document.getElementById('button').addEventListener('click', function() {
+        long = document.forms.long;
+        lat = document.forms.lat;
+      });
+      };
 
       require(["esri/map", "dojo/domReady!"], function(Map) {
         map = new Map("map", {
           basemap: "topo",  //For full list of pre-defined basemaps, navigate to http://arcg.is/1JVo6Wd
-          center: [-122.45, 37.75], // longitude, latitude
+          center: [long, lat], // longitude, latitude
           zoom: 13
         });
       });
@@ -47,6 +55,11 @@
     <div id="map"></div>
     <div class="clock">
     	<h1>WEASLEY CLOCK</h1>
+      <form>
+        <input type="text" name="long" placeholder="Enter longitude">
+        <input type="text" name="lat" placeholder="Enter latitude">
+      </form>
+      <button id="button" type="button">Submit</button>
     </div>
   </body>
 </html>
