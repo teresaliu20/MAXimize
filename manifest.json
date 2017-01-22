@@ -1,14 +1,17 @@
+// Created by Nishir Shelat, Teresa Liu, and Melissa Wen
+// Fight On!
+
 {
   "manifest_version": 2,
  
-  "name": "Modify CSS and HTML",
-  "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
+  "name": "MAXimize",
+  "version": ".1.0",
+  "description": "A browser extension that transforms all the images you see into photos of Max Nikias.",
 
   	"browser_action": {
 	"default_icon": "icon.png",
 	"default_popup": "popup.html",
-	"default_title": "Gone"
+	"default_title": "MAXimize"
 	},
  
   "content_scripts": [{
