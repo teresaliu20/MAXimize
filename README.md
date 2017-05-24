@@ -16,6 +16,10 @@ Us too. That's why we created "MAXimize," a Chrome extension meant to bring purp
 ## Demo
 Download your very own copy of MAXimize from the [Google Chrome Store here!](https://chrome.google.com/webstore/detail/maximize/knbbeidbeopmjaafopcidcjlpgmbmajb)
 
+## Images
+<br><br>
+
 ![16114790_1269914759771519_6933529296128670520_n](https://cloud.githubusercontent.com/assets/22362476/26424166/48b6f4d0-409e-11e7-8e85-96fa396490c6.jpg)
+<br><br>
 ![16142898_1269914763104852_6154369410327281879_n](https://cloud.githubusercontent.com/assets/22362476/26424167/48b96346-409e-11e7-9908-70f1116ee2b8.jpg)
 
